@@ -1,0 +1,6 @@
+[submodule "pi"]
+	path = pi
+	url = git@github.com:earendil-works/pi.git
+[submodule "pi-provider-kiro"]
+	path = pi-provider-kiro
+	url = git@github.com:mikeyobrien/pi-provider-kiro.git
