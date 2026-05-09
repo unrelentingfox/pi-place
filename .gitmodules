@@ -18,7 +18,3 @@
 	path = pi-nvim
 	url = git@github.com:carderne/pi-nvim.git
 	ignore = dirty
-[submodule "pi-permission-system"]
-	path = pi-permission-system
-	url = git@github.com:MasuRii/pi-permission-system.git
-	ignore = dirty
