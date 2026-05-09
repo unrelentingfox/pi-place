@@ -9,9 +9,12 @@
 [submodule "mi-sandbox"]
 	path = mi-sandbox
 	url = git@github.com:unrelentingfox/mi-sandbox.git
+	ignore = dirty
 [submodule "pi-vim"]
 	path = pi-vim
 	url = git@github.com:lajarre/pi-vim.git
+	ignore = dirty
 [submodule "pi-nvim"]
 	path = pi-nvim
 	url = git@github.com:carderne/pi-nvim.git
+	ignore = dirty
