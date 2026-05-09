@@ -46,3 +46,9 @@ The `mi-sandbox` extension enforces:
 - **Bash**: command allow/deny patterns with configurable default policy
 
 Config lives in `~/dotfiles/pi/sandbox.json` (global) and `.sandbox.json` (per-project).
+
+## Documentation
+
+After making changes to submodules, pp.sh, or sandbox config, update:
+- `README.md` — if commands or usage changed
+- `AGENTS.md` — if submodules, key files, or conventions changed
