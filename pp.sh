@@ -169,6 +169,7 @@ cmd_add() {
 	(
 		cd "$PIPLACE" || exit 1
 		git submodule add "$url" "$name"
+		git config -f .gitmodules "submodule.$name.ignore" dirty
 	)
 	if ! _build_repo "$PIPLACE/$name"; then
 		FAILURES+=("$name")
