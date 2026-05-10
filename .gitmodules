@@ -1,11 +1,3 @@
-[submodule "pi"]
-	path = pi
-	url = git@github.com:earendil-works/pi.git
-	ignore = dirty
-[submodule "pi-provider-kiro"]
-	path = pi-provider-kiro
-	url = git@github.com:mikeyobrien/pi-provider-kiro.git
-	ignore = dirty
 [submodule "mi-sandbox"]
 	path = mi-sandbox
 	url = git@github.com:unrelentingfox/mi-sandbox.git
